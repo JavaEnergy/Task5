@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./img/logo.svg" alt="" />
+      </header>
+      <img class="main-img" src="./img/hero-mobile.jpg" alt="" />
+      <img class="main-img-dekstop" src="./img/hero-desktop.jpg" alt="" />
+      <div class="text">
+        <h1>
+          <span>WE`RE</span> <br />
+          COMMING SOON
+        </h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+      </div>
+      <form class="email-adress">
+        <input id="email-input" type="email" placeholder="Email Adress" />
+        <button type="submit">
+          <img src="./img/icon-arrow.svg" alt="" />
+        </button>
+
+        <img id="error-icon" src="./img/icon-error.svg" alt="" />
+      </form>
+      <div id="error-msg">
+        <p>Please provide a valid email</p>
+      </div>
+    </div>
+  </body>
+</html>
